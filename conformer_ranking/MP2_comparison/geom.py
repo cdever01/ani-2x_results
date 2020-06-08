@@ -158,6 +158,6 @@ def comp(f1, f2, prop):
 		prop2, atid=get_dihs(f2, atid)
 		delta=180.0-np.abs(np.abs(prop1-prop2)-180)
 	rmsd=get_rmsd(f1, f2)
-	return delta, prop1, prop2, rmsd
+	return delta
 
 
